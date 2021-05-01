@@ -1,0 +1,25 @@
+@import '../styles/variable.scss';
+
+.category-wrap {
+    .category-box {
+        display: flex;
+        padding: 10px 5px 10px 5px;
+        .category-item {
+            border-radius: 16px;
+            font-size: 14px;
+            height: 32px;
+            background-color: #ff9800;
+            border-color: #ff9800;
+            color: rgba(0, 0, 0, 0.87);
+            flex: 0 1 80px;
+            align-items: center;
+            display: inline-flex;
+            justify-content: center;
+            margin: 0 6px;
+            padding: 0 12px;
+            &:first-child {
+                margin-left: 0px;
+            }
+        }
+    }
+}

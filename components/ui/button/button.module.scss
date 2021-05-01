@@ -1,0 +1,13 @@
+.button-comp {
+    background-color: inherit;
+    border: inherit;
+    font-size: inherit;
+    outline: none;
+    cursor: pointer;
+    color: inherit;
+
+    &.icon {
+        display: flex;
+        align-items: center;
+    }
+}
